@@ -1,0 +1,12 @@
+app:
+  nombre: "Sistema de Agendamiento de Citas"
+  entorno: "produccion"
+  puerto: 8080
+
+database:
+  motor: "postgresql"
+  host: "localhost"
+  puerto: 5432
+  nombre_bd: "agendamiento_citas"
+  usuario: "postgres"
+  password_env: "DB_PASSWORD"
